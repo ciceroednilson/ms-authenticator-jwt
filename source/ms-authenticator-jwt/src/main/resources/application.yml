@@ -1,0 +1,16 @@
+jwt:
+  secret: DD9A73622FE2B55D9A977C716E06817432339ED7C0755B7A5B4C5E723FC94466
+
+spring:
+  datasource:
+    url: jdbc:mysql://172.18.0.1:3306/db_authenticator
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
